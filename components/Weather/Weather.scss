@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css");
+
+.weather__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height: 150px;
+        background: #1e202b;
+        color: #cfcfcf;
+        margin: 0 0 50px;
+    }
+
+    .weather__input {
+        width: 60%;
+        height: 50px;
+        background: #323544;
+        border-radius: 50px;
+        border: none;
+        padding-left: 20px;
+        color: #fff;
+    }
+
+    .loading__message {
+        font-size: 40px;
+        color: rgb(5, 255, 5);
+    }
+
+    .error__message {
+        font-size: 40px;
+        color: red;
+    }
+
+    .weather__info {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin-top: 70px;
+
+        .weather__description {
+            font-size: 24px;
+            color: #c7c7c7;
+        }
+    
+        .temperature {
+            font-size: 70px;
+            color: #fff;
+            margin: 5px;
+    
+            .bi-brightness-high-fill {
+                color: yellow;
+            }
+        }
+    
+        .humidity {
+            font-size: 40px;
+            color: #c7c7c7;
+    
+            .bi-cloud-drizzle-fill {
+                font-size: 40px;
+                color: #c7c7c7;
+            }
+        }
+    
+        .description {
+            font-size: 40px;
+            color: #c7c7c7;
+    
+            .bi-wind {
+                font-size: 40px;
+                color: #c7c7c7;
+            }
+        }
+    }
+    
+}
